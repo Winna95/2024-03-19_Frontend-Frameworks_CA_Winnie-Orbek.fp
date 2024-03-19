@@ -1,0 +1,43 @@
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.navbar li a:hover {
+    color: #408D85;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-right: auto;
+}
+
+
+.cartIcon {
+    margin-left: auto;
+}
+
+.cartIcon:hover {
+    color: #408D85;
+    transform: scale(1.1);
+}

@@ -1,0 +1,46 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.error {
+    color: red;
+}
+
+
+@media screen and (min-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        max-width: 500px;
+        margin: auto;
+        padding-bottom: 400px;
+
+    }
+    .container{
+        margin-top: 0;
+        position: relative;
+    }
+    .containerTwo {
+        position: absolute;
+
+
+    }
+
+}
+@media screen and (min-width: 600px) {
+    .grid {
+        margin-bottom: 200px;
+    }
+
+
+}
+@media screen and (min-width: 1000px) {
+    .grid {
+        margin: 50px auto 200px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+}

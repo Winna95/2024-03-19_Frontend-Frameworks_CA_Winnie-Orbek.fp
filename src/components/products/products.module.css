@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Two columns minimum width 150px, expand as needed */
+    max-width: 1700px;
+    margin: 20px auto 0;
+    width: 90%;
+
+}
+.container {
+    padding: 10px;
+    margin: 10px auto 0;
+}
+
+.productCard {
+text-align: left;
+}
+
+.center {
+    display: flex;
+}
+
+.productCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding drop shadow */
+    padding: 20px;
+    transition: transform 0.3s ease-in-out; /* Adding transition effect */
+}
+
+.productCard:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
+

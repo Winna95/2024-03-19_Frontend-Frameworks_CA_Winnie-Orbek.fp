@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+}
+
+.headerImg {
+    height:300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.textOverlay {
+    font-family: "The Girl Next Door", cursive;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .headerImg {
+        height: 500px;
+        width: 100%;
+
+    }
+    .textOverlay {
+        left: 50%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .textOverlay {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .textOverlay {
+        font-size: 48px;
+    }
+}
+
+

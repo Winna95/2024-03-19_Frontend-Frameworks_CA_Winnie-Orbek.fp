@@ -1,0 +1,20 @@
+.checkoutSuccessDiv {
+    background-color: #CDDFD3;
+    padding: 20px 30px;
+    width: 250px;
+    margin: 50px auto 0;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .checkoutSuccessDiv {
+        width: 300px;
+        padding: 20px 100px;
+        margin-bottom: 260px;
+        margin-top: 200px;
+    }
+}

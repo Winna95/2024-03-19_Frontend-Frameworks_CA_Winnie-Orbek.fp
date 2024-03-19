@@ -1,0 +1,69 @@
+.removeBtn {
+    border: none;
+    font-weight: bolder;
+    background-color: #CDDFD3;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto 0 120px;
+    gap: 10px;
+
+}
+.container {
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    background: #CDDFD3;
+}
+.containerTwo {
+    border: #408d85 1px solid;
+    padding: 30px;
+    margin: -10px auto 0;
+}
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+}
+.rightAligned {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+
+}
+
+@media screen and (min-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        max-width: 500px;
+        margin: 60px auto 380px;
+        justify-content: center;
+        gap: 0;
+    }
+    .center {
+        margin-left: 0;
+    }
+    .container {
+        padding: 40px;
+        margin-top: -10px;
+    }
+
+}
+@media screen and (min-width: 1000px) {
+    .grid {
+        margin-bottom: 450px;
+
+    }
+
+}
