@@ -12,10 +12,10 @@ const IndividualProduct = () => {
     const [error, setError] = useState(null);
 
     const dispatch = useDispatch();
+    let params = useParams();
+    const productId = params.id
 
     useEffect(() => {
-        let params = useParams();
-        const productId = params.id
         const fetchProduct = async () => {
             try {
                 const response = await fetch(`https://v2.api.noroff.dev/online-shop/${productId}`);
@@ -32,7 +32,7 @@ const IndividualProduct = () => {
         };
 
         fetchProduct();
-    }, []);
+    }, [productId]);
 
     if (loading) {
         return <div>Loading...</div>;
