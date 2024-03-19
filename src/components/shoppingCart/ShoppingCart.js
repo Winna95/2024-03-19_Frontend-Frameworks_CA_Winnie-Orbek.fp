@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart } from "./cartSlice";
 import { Link } from "react-router-dom";
-import { BaseButton } from "./button.styles";
+import { BaseButton } from "../common/button.styles";
 import styles from "./shoppingCart.module.css";
-import { HeaderText } from "./H1.styles";
+import { HeaderText } from "../common/H1.styles";
 
 const ShoppingCart = () => {
     const [products, setProducts] = useState([]);
