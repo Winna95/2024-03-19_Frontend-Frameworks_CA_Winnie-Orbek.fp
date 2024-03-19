@@ -3,9 +3,9 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import {StyledForm, StyledInput, StyledTextDiv} from "./ContactForm.styles"
-import {BaseButton} from "./button.styles";
+import {BaseButton} from "../common/button.styles";
 import styles from "./ContactForm.module.css"
-import {HeaderText} from "./H1.styles";
+import {HeaderText} from "../common/H1.styles";
 
 const schema = yup
     .object({
