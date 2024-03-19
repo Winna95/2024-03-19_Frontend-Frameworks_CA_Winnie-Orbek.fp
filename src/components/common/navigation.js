@@ -1,7 +1,7 @@
 import './navigation.module.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CartIcon from "./CartIcon";
+import CartIcon from "../shoppingCart/CartIcon";
 import styles from './navigation.module.css'
 
 const Navigation = () => {

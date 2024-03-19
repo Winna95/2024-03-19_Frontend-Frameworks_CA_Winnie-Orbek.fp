@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from "./navigation";
-import Photo from './images/pexels-karolina-grabowska-5650049.jpg'
+import Photo from '../../images/pexels-karolina-grabowska-5650049.jpg'
 import './headerImg.module.css'
 import styles from './headerImg.module.css';
 
