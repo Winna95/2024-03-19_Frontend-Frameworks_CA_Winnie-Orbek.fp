@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <header>
             <div className={styles.imageContainer}>
-                <img className={styles.headerImg} src={Photo} alt="Header image"/>
+                <img className={styles.headerImg} src={Photo} alt="Header"/>
                 <div className={styles.textOverlay}>Noroff Online Shop</div>
             </div>
             <Navigation />
