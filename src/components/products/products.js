@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { HeaderText } from './H1.styles';
+import { HeaderText } from '../common/H1.styles';
 import { ProductImg } from './ProductsImg.styles';
 import styles from './products.module.css';
-import { BaseButton } from './button.styles';
+import { BaseButton } from '../common/button.styles';
 import {SearchInput} from "./SearchInput.styles";
 
 const Products = () => {
