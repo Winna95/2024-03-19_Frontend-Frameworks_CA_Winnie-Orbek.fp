@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import {useParams} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import {addToCart, totalCount} from "./cartSlice";
-import {HeaderText} from "./H1.styles";
+import {addToCart, totalCount} from "../shoppingCart/cartSlice";
+import {HeaderText} from "../common/H1.styles";
 import styles from "./induvidualProduct.module.css"
-import {BaseButton} from "./button.styles";
+import {BaseButton} from "../common/button.styles";
 
 const IndividualProduct = () => {
     const [product, setProduct] = useState({});
