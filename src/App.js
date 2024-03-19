@@ -2,11 +2,9 @@
 
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
-import Navigation from './components/common/navigation';
 import Products from './components/products/products';
 import ContactForm from "./components/contactForm/ContactForm";
 import IndividualProduct from "./components/induvidualProduct/InduvidualProduct";
-import CartIcon from './components/shoppingCart/CartIcon';
 import Layout from "./components/common/Layout";
 import ShoppingCart from "./components/shoppingCart/ShoppingCart";
 import CheckoutSuccess from "./components/checkoutSuccess/CheckoutSuccess";

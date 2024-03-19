@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    value: new Map,
+    value: new Map(),
 };
 
 export const cartSlice = createSlice({
@@ -41,7 +41,7 @@ export const cartSlice = createSlice({
             cart.delete(productId)
         },
        reset: (state) => {
-          state.value = new Map;
+          state.value = new Map();
 
        }
     },

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import {addToCart, totalCount} from "../shoppingCart/cartSlice";
+import {addToCart} from "../shoppingCart/cartSlice";
 import {HeaderText} from "../common/H1.styles";
 import styles from "./induvidualProduct.module.css"
 import {BaseButton} from "../common/button.styles";
@@ -13,10 +13,9 @@ const IndividualProduct = () => {
 
     const dispatch = useDispatch();
 
-    let params = useParams();
-    const productId = params.id
-    console.log(productId)
     useEffect(() => {
+        let params = useParams();
+        const productId = params.id
         const fetchProduct = async () => {
             try {
                 const response = await fetch(`https://v2.api.noroff.dev/online-shop/${productId}`);

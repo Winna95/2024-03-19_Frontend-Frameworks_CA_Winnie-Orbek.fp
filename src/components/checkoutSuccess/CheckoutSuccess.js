@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {removeFromCart, reset} from "../shoppingCart/cartSlice";
+import {reset} from "../shoppingCart/cartSlice";
 import {Link} from "react-router-dom";
 import styles from "./CheckoutSuccess.module.css"
 import {BaseButton} from "../common/button.styles";
